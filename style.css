@@ -126,19 +126,38 @@ h2 {
 }
 
 .navbar {
-  padding: .8rem;
-  display: none;
+    padding: .5rem; /* Adjust the padding to make the navbar smaller */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent background */
 }
-.navbar-brand img{
-  width: 100px;
-  height: 70px;
+
+.navbar-brand img {
+    width: 80px; /* Adjust the width of the logo */
+    height: auto;
 }
-.navbar-nav li{
-  padding-right: 20px;
+
+.navbar-nav {
+    margin-right: 20px;
 }
-.nav-link{
-  font-size: 1.1em !important;
+
+.navbar-nav li {
+    padding-right: 15px;
 }
+
+.nav-link {
+    font-size: 1em !important;
+}
+
+/* Optional: Add a box-shadow for a subtle elevation effect */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .carousel-inner img{
   width: 100%;
 }
