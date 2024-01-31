@@ -10,6 +10,7 @@ html, body{
   color: #333;
   scroll-behavior: smooth;
   background: linear-gradient(to right, #ff7e5f, #feb47b);
+  background: url('../img/Conversation-Childrens-movement-Africa-1920x1080.jpg') center/cover no-repeat;
   /* cursor: none; */
 }
 .img-border {
