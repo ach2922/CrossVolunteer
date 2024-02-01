@@ -85,7 +85,7 @@ h2 {
   background-color: blue;
 }
 .navbar{
-  padding: .5rem; 
+  padding: .8rem; 
 }
 .footer-image .footer-logo {
   height: 100px;
@@ -266,9 +266,6 @@ hr.light {
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
-image {
-  background-repeat: no-repeat;
-}
 footer a {
   color: #d5d5d5;
 }
@@ -402,6 +399,8 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+
 
 
 
