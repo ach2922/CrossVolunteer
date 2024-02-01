@@ -9,6 +9,8 @@ html, body{
   background-color: #f8f8f8f8;
   color: #333;
   scroll-behavior: smooth;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  background: url('../img/Conversation-Childrens-movement-Africa-1920x1080.jpg') center/cover no-repeat;
   /* cursor: none; */
 }
 .img-border {
@@ -85,7 +87,7 @@ h2 {
   background-color: blue;
 }
 .navbar{
-  padding: .8rem; 
+  padding: .5rem; 
 }
 .footer-image .footer-logo {
   height: 100px;
@@ -124,38 +126,19 @@ h2 {
 }
 
 .navbar {
-    padding: .5rem; /* Adjust the padding to make the navbar smaller */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent background */
+  padding: .8rem;
+  display: none;
 }
-
-.navbar-brand img {
-    width: 80px; /* Adjust the width of the logo */
-    height: auto;
+.navbar-brand img{
+  width: 100px;
+  height: 70px;
 }
-
-.navbar-nav {
-    margin-right: 20px;
+.navbar-nav li{
+  padding-right: 20px;
 }
-
-.navbar-nav li {
-    padding-right: 15px;
+.nav-link{
+  font-size: 1.1em !important;
 }
-
-.nav-link {
-    font-size: 1em !important;
-}
-
-/* Optional: Add a box-shadow for a subtle elevation effect */
-.navbar {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 .carousel-inner img{
   width: 100%;
 }
@@ -418,8 +401,6 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
 
 
 
